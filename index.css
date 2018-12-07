@@ -1,0 +1,89 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100vw;
+  margin-left: -2vw;
+  margin-top: -1vw;
+  box-shadow: 0vw 0.8vw 2vw 0vw black;
+  background-image: url("navbar-bg.png");
+  position: fixed;
+  z-index: 1;
+  padding: 2vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-1 {
+  display: flex;
+  flex-direction: row;
+  height: 15vw;
+}
+
+.navbar-1-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35vw;
+  margin-left: 2vw;
+}
+
+.img-header {
+  border-radius: 50%;
+  width: 15vw;
+}
+
+.text-header {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-header {
+  display: flex;
+  height: 3vw;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: transparent;
+  border: none;
+  font-size: 1.6vw;
+  cursor: pointer;
+  color: white;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  width: 87vw;
+  height: 100vw;
+  margin-left: -1vw;
+  margin-top: 14vw;
+  /*background-image: url("navbar-bg.png");
+  opacity: 0.5;*/
+  background-color: white;
+  padding: 6vw;
+  z-index: -1;
+}
+
+.about {
+  position: absolute;
+  display: flex;
+  width: 30vw;
+  height: 19vw;
+  background-color: white;
+  box-shadow: 0vw 0.4vw 1vw 0vw black;
+  border-radius: 1vw;
+  z-index: 1;
+}
