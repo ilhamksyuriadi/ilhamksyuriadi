@@ -1,44 +1,43 @@
-html {
-  padding: 0;
-  margin: 0;
-}
-
 .body {
   display: flex;
   flex-direction: column;
 }
 
 .navbar {
-  width: 100vw;
-  margin-left: -2vw;
+  width: 25vw;
+  height: 50vw;
+  margin-left: -1vw;
   margin-top: -1vw;
   box-shadow: 0vw 0.8vw 2vw 0vw black;
   background-image: url("navbar-bg.png");
   position: fixed;
-  z-index: 1;
-  padding: 2vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 
 .navbar-1 {
+  width: 25vw;
   display: flex;
-  flex-direction: row;
-  height: 15vw;
+  flex-direction: column;
+  margin-top: 3vw;
 }
 
 .navbar-1-1 {
+  width: 22vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 35vw;
-  margin-left: 2vw;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-header {
   border-radius: 50%;
-  width: 15vw;
+  width: 13vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-header {
@@ -48,33 +47,43 @@ html {
 }
 
 .button-wrapper {
+  width: 25vw;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button-header {
   display: flex;
-  height: 3vw;
+  height: 3.4vw;
   font-family: "Roboto Condensed", sans-serif;
   background-color: transparent;
   border: none;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   cursor: pointer;
   color: white;
+  border-bottom: 0.2vw solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-header:hover {
+  border-bottom: 0.2vw solid white;
 }
 
 .content {
-  display: flex;
-  position: absolute;
-  width: 87vw;
-  height: 100vw;
-  margin-left: -1vw;
-  margin-top: 14vw;
   /*background-image: url("navbar-bg.png");
   opacity: 0.5;*/
+  display: flex;
+  position: absolute;
+  width: 61.9vw;
+  height: 100vw;
+  margin-top: -1vw;
+  margin-left: 24.1vw;
   background-color: white;
   padding: 6vw;
   z-index: -1;
+  border: 1px solid black;
 }
 
 .about {
