@@ -183,7 +183,7 @@ header a:hover {
   }
 
   #showcase img {
-    width: 250px;
+    width: 270px;
     margin: auto;
   }
 
@@ -255,14 +255,30 @@ header a:hover {
 
 /*Skills*/
 #skills {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#skills #current {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 #skills h1 {
   text-align: center;
+  font-size: 30px;
+  padding-bottom: 15px;
   border-bottom: 1px solid black;
 }
+
+.skill {
+  margin: auto;
+  width: 80px;
+  text-align: center;
+}
+
 /*Footer*/
 footer {
   background: lightgrey;
