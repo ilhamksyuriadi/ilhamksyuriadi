@@ -15,7 +15,7 @@ $(document).ready(function() {
     e.preventDefault();
     $("body,html").animate(
       {
-        scrollTop: $(this.hash).offset().top - 50
+        scrollTop: $(this.hash).offset().top - 20
       },
       1500
     );
