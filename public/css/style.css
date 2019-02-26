@@ -3,7 +3,8 @@ body {
   margin: 0;
 }
 
-p {
+p,
+tr {
   font-family: "Roboto", sans-serif;
 }
 
@@ -12,8 +13,7 @@ h2,
 h3,
 h4,
 h5,
-li,
-tr {
+li {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -318,6 +318,10 @@ header a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  #showcase {
+    margin-top: 50px;
+  }
+
   #showcase .container {
     display: flex;
     flex-direction: column;
@@ -342,8 +346,7 @@ header a:hover {
   }
 
   #showcase p {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 18px;
   }
 }
 
@@ -380,11 +383,12 @@ header a:hover {
   color: rgb(54, 54, 54);
 }
 
-#skills #current {
+#current {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  margin-top: 60px;
 }
 
 #skills h1 {
@@ -409,6 +413,15 @@ header a:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  #skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #current {
+    margin-top: 30px;
+  }
+
   #skills h1 {
     font-size: 24px;
   }
@@ -445,7 +458,7 @@ header a:hover {
 }
 
 #portofolio h3 {
-  margin-top: 35px;
+  margin-top: 65px;
 }
 
 #portofolio img {
@@ -488,25 +501,30 @@ table {
 
 td {
   width: 50%;
-  border-bottom: 1px solid white;
   padding: 15px;
 }
 
-.scroll-box-table tr {
-  transition-duration: 0.5s;
-}
-
-.scroll-box-table tr:hover {
-  background: rgb(8, 25, 77);
-}
-
 @media screen and (max-width: 1000px) {
+  #portofolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   #portofolio h1 {
     font-size: 24px;
   }
 
+  #portofolio h3 {
+    margin-top: 60px;
+  }
+
   #portofolio p {
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  td {
+    font-size: 15px;
   }
 }
 
@@ -548,12 +566,22 @@ td {
 }
 
 @media screen and (max-width: 1000px) {
+  #experiences {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   #experiences h1 {
     font-size: 24px;
   }
 
+  #experiences h3 {
+    margin-top: 40px;
+  }
+
   #experiences p {
-    font-size: 14px;
+    font-size: 15px;
+    line-height: 21px;
   }
 }
 
@@ -641,6 +669,11 @@ td {
 }
 
 @media (max-width: 1000px) {
+  #find-me {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   #find-me h3 {
     font-size: 16px;
   }
