@@ -20,7 +20,7 @@ button {
 
 /*Global*/
 .container {
-  width: 1440px;
+  width: 1152px;
   margin: auto;
   overflow: hidden;
 }
@@ -481,7 +481,7 @@ header a:hover {
   justify-content: space-between;
   height: 160px;
   padding: 15px 0 15px 0;
-  overflow: auto;
+  overflow-x: scroll;
   background: #dfdfdf;
 }
 
@@ -496,12 +496,12 @@ header a:hover {
   margin: auto;
 }
 
-.scroll-box-table {
+/*.scroll-box-table {
   border: 1px solid white;
-  overflow: auto;
+  overflow: scroll;
   height: 160px;
   background: rgb(5, 16, 49);
-}
+}*/
 
 table {
   border-collapse: collapse;
@@ -533,6 +533,10 @@ td {
     line-height: 21px;
   }
 
+  table {
+    text-align: left;
+  }
+
   td {
     font-size: 15px;
   }
@@ -558,6 +562,7 @@ td {
 
 #experiences h3 {
   margin-top: 35px;
+  text-align: center;
 }
 
 #experiences-wrap {
@@ -671,7 +676,7 @@ td {
   width: 85px;
   border-radius: 50px;
   cursor: pointer;
-  transition-duration: 0.1s;
+  transition-duration: 0.5s;
 }
 
 button a {
