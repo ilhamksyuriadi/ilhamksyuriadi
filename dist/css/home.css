@@ -78,9 +78,13 @@ header {
 }
 
 header .logo {
-  color: #fff;
   float: left;
   font-weight: bold;
+}
+
+header .logo a {
+  text-decoration: none;
+  color: white;
 }
 
 header nav {

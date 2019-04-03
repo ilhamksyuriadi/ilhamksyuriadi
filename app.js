@@ -12,6 +12,10 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Route
 app.get("/", (req, res) => {
+  res.render("index");
+});
+
+app.get("/profile", (req, res) => {
   res.render("home");
 });
 
