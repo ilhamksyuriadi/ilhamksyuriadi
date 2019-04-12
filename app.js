@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/profile", (req, res) => {
-  res.render("home");
+  res.render("profile");
 });
 
 // Set server

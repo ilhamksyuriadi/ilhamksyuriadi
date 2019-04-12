@@ -5,7 +5,9 @@ body {
 
 p,
 tr {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Oxygen", sans-serif;
+  font-weight: 500;
 }
 
 h1,
@@ -261,6 +263,7 @@ header a:hover {
 }
 
 #showcase p {
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   text-align: justify;
 }
