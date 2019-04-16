@@ -86,7 +86,7 @@ body {
   }
 
   .content-2 h1 {
-    font-size: 2em;
+    font-size: 2.3em;
   }
 
   .content-2 h2 {
@@ -98,6 +98,7 @@ body {
 
 .content-2 .nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -121,7 +122,8 @@ body {
 @media (max-width: 1000px) {
   .nav a {
     opacity: 0.8;
-    width: 40%;
+    width: 50%;
+    margin: 1%;
   }
   .nav a h3 {
     font-size: 1em;
