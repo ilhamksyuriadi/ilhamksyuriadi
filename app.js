@@ -19,6 +19,10 @@ app.get("/profile", (req, res) => {
   res.render("profile");
 });
 
+app.get("/project", (req, res) => {
+  res.render("project");
+});
+
 // Set server
 app.listen(3000, () => {
   console.log("Server started on port 3000");
