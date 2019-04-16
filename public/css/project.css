@@ -22,11 +22,11 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  color: rgba(255, 255, 255, 0.3);
+  color: #000000;
 }
 
 .credit a {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 
 @-webkit-keyframes robot_bounce {
