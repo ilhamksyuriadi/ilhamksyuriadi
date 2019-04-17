@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #ffffff;
+  background-color: #f4f4f4;
 }
 
 .robot svg {
@@ -22,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   text-align: center;
-  color: #000000;
+  color: #464646;
 }
 
 .credit a {
