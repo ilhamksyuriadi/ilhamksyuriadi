@@ -141,5 +141,7 @@ body {
   margin: 20px;
 }
 
-.socmed i {
+.socmed a {
+  color: white;
+  font-size: 18px;
 }
