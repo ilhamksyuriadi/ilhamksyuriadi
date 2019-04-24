@@ -133,3 +133,13 @@ body {
 .nav a:hover {
   opacity: 1;
 }
+
+.socmed {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 20px;
+}
+
+.socmed i {
+}
