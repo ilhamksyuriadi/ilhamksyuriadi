@@ -133,3 +133,38 @@ body {
 .nav a:hover {
   opacity: 1;
 }
+
+.socmed {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 20px;
+}
+
+.socmed nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socmed a {
+  color: white;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: 0.5;
+}
+
+.socmed a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1000px) {
+  .socmed nav {
+    width: 40%;
+  }
+
+  .socmed a {
+    font-size: 18px;
+    opacity: 1;
+  }
+}
